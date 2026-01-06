@@ -25,9 +25,7 @@ const Nav = () => {
 
   return (
     <nav className="bg-white/80 font-text flex m-auto h-16 w-3/4 justify-center items-center text-center sticky top-4 z-50 rounded-xl overflow-hidden shadow-lg border border-amber-100 mt-2">
-      {/* SECCIÓN IZQUIERDA: BUSCADOR (ÁMBAR) */}
       <div className=" w-1/2 h-full flex items-center px-6 gap-3">
-        {/* LUPA */}
         <div className="text-amber-900 opacity-70">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -66,25 +64,25 @@ const Nav = () => {
         <img
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif"
           className="h-10 drop-shadow-[0_0_5px_rgba(255,255,255,0.3)]"
-          alt="pika"
+          alt="Pik"
         />
 
         <img
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/2.gif"
           className="h-10 drop-shadow-[0_0_5px_rgba(255,255,255,0.3)]"
-          alt=""
+          alt="Ivy"
         />
 
         <img
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/16.gif"
           className="h-10 drop-shadow-[0_0_5px_rgba(255,255,255,0.3)]"
-          alt="char"
+          alt="Pid"
         />
 
         <img
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10.gif"
           className="h-10 drop-shadow-[0_0_5px_rgba(255,255,255,0.3)]"
-          alt="char"
+          alt="Cat"
         />
       </div>
     </nav>

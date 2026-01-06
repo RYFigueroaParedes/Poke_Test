@@ -9,12 +9,10 @@ const initialState: PokemonState = {
   searchTerm: "",
 };
 
-// Petición para la lista paginada con "Delay Artificial" para notar la animación
 export const fetchPokemons = createAsyncThunk("pokemon/fetch", async (page: number): Promise<Pokemon[]> => {
   const limit = 6;
   const offset = (page - 1) * limit;
 
-  // Forzamos un pequeño retraso de 500ms
   const delay = new Promise((resolve) => setTimeout(resolve, 500));
 
   const res = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=${offset}`);
@@ -27,7 +25,7 @@ export const fetchPokemons = createAsyncThunk("pokemon/fetch", async (page: numb
     })
   );
 
-  await delay; // Esperamos el medio segundo antes de retornar
+  await delay;
   return details;
 });
 
@@ -63,6 +61,7 @@ const pokemonSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
+
       // Paginación normal (SOLO UN .pending)
       .addCase(fetchPokemons.pending, (state) => {
         state.loading = true;
@@ -70,7 +69,8 @@ const pokemonSlice = createSlice({
       .addCase(fetchPokemons.fulfilled, (state, action) => {
         state.loading = false;
         state.fullList = action.payload;
-        // Solo actualizamos la lista principal si no hay una búsqueda activa
+
+        // Actualizamos la lista principal si no hay una búsqueda activa
         if (!state.searchTerm) state.list = action.payload;
       })
 

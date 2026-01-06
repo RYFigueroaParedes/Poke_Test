@@ -29,7 +29,7 @@ export default function Home() {
                 <div
                   key={pokemon.id}
                   className="animate-in fade-in zoom-in duration-500"
-                  style={{animationDelay: `${index * 100}ms`}} // Esto hace que aparezcan uno por uno
+                  style={{animationDelay: `${index * 100}ms`}}
                 >
                   <Card
                     key={pokemon.id}
