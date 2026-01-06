@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rotceh Figueroa - Web App
 
-## Getting Started
+Este es un proyecto desarrollado con **Next.js 16**, **React 19** y **TypeScript**, utilizando **Tailwind CSS 4** para los estilos y **Redux Toolkit** para el manejo del estado global.
 
-First, run the development server:
+## 🚀 Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- [Node.js](https://nodejs.org/) (versión 18.0 o superior recomendada)
+- [npm](https://www.npmjs.com/) (viene incluido con Node.js)
+
+## 🛠️ Instalación
+
+1.  **Clona el repositorio:**
+
+    ```bash
+    git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+    ```
+
+    _(Reemplaza la URL con la de tu repositorio en GitHub)_
+
+2.  **Entra a la carpeta del proyecto:**
+
+    ```bash
+    cd rotceh-figueroa
+    ```
+
+3.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
+
+## 💻 Ejecución Local
+
+Para iniciar el servidor de desarrollo, ejecuta:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+La aplicación estará disponible en: http://localhost:3000
+
+🏗️ Comandos Disponibles
+npm run dev: Inicia el servidor de desarrollo.
+
+npm run build: Crea la versión de producción de la aplicación.
+
+npm run start: Inicia la aplicación en modo producción (después de compilar).
+
+npm run lint: Ejecuta el linter para revisar errores de código.
+
+🧰 Tecnologías Utilizadas
+Framework: Next.js 16
+
+Librería UI: React 19
+
+Estilos: Tailwind CSS 4
+
+Estado Global: Redux Toolkit (@reduxjs/toolkit)
+
+Lenguaje: TypeScript
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
