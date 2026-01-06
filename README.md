@@ -14,10 +14,8 @@ Antes de comenzar, asegúrate de tener instalado:
 1.  **Clona el repositorio:**
 
     ```bash
-    git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+    git clone [https://github.com/RYFigueroaParedes/Poke_Test](https://github.com/RYFigueroaParedes/Poke_Test)
     ```
-
-    _(Reemplaza la URL con la de tu repositorio en GitHub)_
 
 2.  **Entra a la carpeta del proyecto:**
 
