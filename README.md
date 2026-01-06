@@ -20,7 +20,7 @@ Antes de comenzar, asegúrate de tener instalado:
 2.  **Entra a la carpeta del proyecto:**
 
     ```bash
-    cd rotceh-figueroa
+    cd Poke_Test
     ```
 
 3.  **Instala las dependencias:**
